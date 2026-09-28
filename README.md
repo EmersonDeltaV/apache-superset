@@ -1,5 +1,18 @@
 # apache-superset
-This repository holds the Dockerfile image used to build the Apache Superset application currently available the DeltaV Edge Applications Marketplace. Apache Superset is a modern, enterprise-ready business intelligence web application for data exploration and visualization. It provides a rich set of tools to turn data into meaningful insights through interactive dashboards and reports.
+
+## Important Information
+
+This repository contains Emerson-authored deployment and integration examples for an open-source application that can run on DeltaV Edge. The application is not part of DeltaV Edge, is not required for its operation, and does not modify its functionality. All repository contents are provided as examples only. Users are responsible for securing, validating, testing, and maintaining configurations before production use.
+
+## Relationship to DeltaV Edge
+
+Apache Superset is an optional third-party business intelligence and data visualization platform that may be used to analyze and visualize data made available through DeltaV Edge integrations.
+
+Apache Superset may consume data made available through DeltaV Edge integrations but is not involved in DeltaV data acquisition, DeltaV Edge contextualization, DeltaV Edge orchestration, or DeltaV Edge platform operations.
+
+## About Apache Superset
+
+Apache Superset is a modern, enterprise-ready business intelligence web application for data exploration and visualization. It provides a rich set of tools to transform data into interactive dashboards, reports, and visual analytics.
 
 ## Features
 - **No-Code Interface**: Build charts and dashboards quickly without needing to write code.
